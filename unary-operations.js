@@ -1,7 +1,7 @@
 function UnarOperation(num){
   let plus = +num;   //Если num не является числом оператор + приведет его к Number
   let minus = -num;  //Меняет знак num
-  return `${plus}, ${minus}`;
+  return [plus, minus];
 }
 function IncrimentDicriment(num){
   console.log(num++);  //В начале выводит num, а после прибавляет 1
