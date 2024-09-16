@@ -9,4 +9,4 @@ function check(a){
   }
 }
 let a = "ab";
-console.log(`Булевое значение переменной - ${check(a)}`);
+console.log(`Number значение переменной - ${check(a)}`);
