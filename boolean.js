@@ -1,10 +1,14 @@
 function method(role, login){
-  if(role == "admin"){
-    if(login == true){
-      
+  if(login == false){
+    return false;
+  }else{
+    if(role != "user" && role!="admin"){
+      return false;
+    }else{
+      return true;
     }
   }
 }
 let role = "user";
 let login = true;
-method(role, login)
+console.log(method(role, login));
